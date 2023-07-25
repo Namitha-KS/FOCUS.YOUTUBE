@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Focus.YouTube</title>
+  <title>Watch YouTube Videos with Constraints</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div id="video-container">
     <div id="player"></div>
     <input type="text" id="video-link" placeholder="Enter YouTube Video Link">
-    <button id="start-btn">PLAY</button>
+    <button id="start-btn">Start</button>
   </div>
   <script src="https://www.youtube.com/iframe_api"></script>
   <script src="script.js"></script>
+
+  <div id="instructions">
+    <h2>How to Use:</h2>
+    <p>1. Enter a valid YouTube video link in the textbox above.</p>
+    <p>2. Click the "Start" button to load and play the video.</p>
+    <p>3. Once the video starts playing, you won't be able to switch tabs without pausing the video.</p>
+    <p>4. You can't mute the video or scroll to a specific timestamp.</p>
+    <p>5. The video will play until it ends, but you can pause it anytime by clicking the YouTube player's pause button.</p>
+    <p>Enjoy your video-watching experience with special constraints!</p>
+  </div>
 </body>
 </html>
