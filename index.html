@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>WatchFocus.YouTube</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div id="video-container">
-    <div id="player"></div>
-    <input type="text" id="video-link" placeholder="Enter YouTube Video Link">
-    <button id="start-btn">PLAY</button>
-  </div>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WatchFocus.YouTube</title>
+        <link rel="stylesheet" href="assests/css/styles.css">
+        <link rel="stylesheet" href="assests/css/bootstrap.min.css">
+    </head>
+    <body>
+        <section class="home">
+            <div class="col-lg-12" id="video-container">
+                <div id="player"></div>
+                <form action="" method="post">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <input type="text" id="video-link" placeholder="Enter YouTube Video Link">
+                        </div>
+                        <div class="col-lg-6">
+                            <button id="start-btn">PLAY</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
   <script src="https://www.youtube.com/iframe_api"></script>
-  <script src="script.js"></script>
+  <script src="assests/js/script.js"></script>
 
   <div id="instructions">
     <h2>How to Use:</h2>
