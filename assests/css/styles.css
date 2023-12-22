@@ -3,7 +3,6 @@ body {
     background-image: url(../img/bg.jpg);
     background-position: center center;
     background-attachment: fixed;
-    background-repeat: no-repeat;
 }
   
 #video-container {
@@ -100,5 +99,5 @@ section.home .box button:hover {
 }
 
 iframe {
-  padding-right: 40px;
+  width: 100%;
 }
